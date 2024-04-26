@@ -1,0 +1,45 @@
+html,
+body {
+  background-color: #f8f8f8;
+  font-family: sans-serif;
+  font-weight: 200;
+  height: 100vh;
+  margin: 0;
+}
+.wrapper {
+  width: 500px;
+  height: 500px;
+  background-color: #000;
+  border-radius: 20px;
+  box-shadow: 0px 0px 15px 7px #888888;
+  display: flex;
+  flex-wrap: wrap;
+}
+.square {
+  align-content: space-between;
+  width: 150px;
+  height: 150px;
+  background: white;
+  margin: 5px;
+  font-size: 8rem;
+  line-height: 150px;
+  font-family: sans-serif;
+  text-align: center;
+  /* color: #000; */
+  cursor: pointer;
+  float: left;
+  border-radius: 75px;
+  display: flex;
+  flex: auto auto auto;
+}
+.square.x {
+  color: red;
+}
+.square.o {
+  color: green;
+}
+.flex-center {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
